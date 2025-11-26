@@ -1151,9 +1151,7 @@
 //     </div>
 //   )
 // }
-
 // export default VirtualPaint
-
 import { useEffect, useRef, useState } from 'react'
 import './VirtualPaint.css'
 
