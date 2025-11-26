@@ -1,16 +1,27 @@
-import { useState } from 'react'
+// import { useState } from 'react'
+// import VirtualPaint from './components/VirtualPaint'
+// import './App.css'
+// function App() {
+//   return (
+//     <div className="App">
+//       <VirtualPaint />
+//     </div>
+//   )
+// }
+
+// export default App
+import { Routes, Route } from 'react-router-dom'
 import VirtualPaint from './components/VirtualPaint'
+import GesturePDFViewer from './components/GesturePDFViewer'
 import './App.css'
-import VirtualPDFViewer from './components/VirtualPDFViewer'
-import GesturePdfViewer from './components/GesturePdfViewer'
 
 function App() {
   return (
-    <div className="App">
-      <VirtualPaint />
-    </div>
+    <Routes>
+      <Route path="/" element={<VirtualPaint />} />
+      <Route path="/pdf" element={<GesturePDFViewer />} />
+    </Routes>
   )
 }
 
 export default App
-

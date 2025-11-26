@@ -1961,9 +1961,9 @@ const VirtualPaint = () => {
       <div className="virtual-paint-container">
         <header className="hero">
           <div className="hero-text">
-            <p className="eyebrow">Hand-gesture creative lab</p>
+            <p className="eyebrow">Hand-gesture creative lab .devansh</p>
             <h1>
-              Virtual Paint <span>Studio</span>
+              Virtual Paint <span>Studio </span>
             </h1>
             <p className="subhead">
               Control vivid strokes with nothing but your hands. Start the camera, tuck your thumb,
@@ -2250,5 +2250,4 @@ const VirtualPaint = () => {
     </div>
   )
 }
-
 export default VirtualPaint
